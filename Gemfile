@@ -45,7 +45,7 @@ group :development do
   gem 'spring'
 end
 
-gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
+# gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 
 gem 'simple_form'
 
@@ -53,3 +53,6 @@ gem 'devise'
 
 gem 'gravatarify', '~> 3.0.0'
 
+gem 'bootstrap-sass', '~> 3.3.5'
+
+gem 'bootswatch-rails'
