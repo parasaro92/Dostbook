@@ -56,3 +56,5 @@ gem 'gravatarify', '~> 3.0.0'
 gem 'bootstrap-sass', '~> 3.3.5'
 
 gem 'bootswatch-rails'
+
+gem 'public_activity'
