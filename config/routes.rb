@@ -15,6 +15,7 @@ Dostbook::Application.routes.draw do
       put :accept
     end
   end
+  resources :posts, only:[:create, :edit, :update, :destroy]
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
