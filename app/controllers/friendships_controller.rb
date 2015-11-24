@@ -1,7 +1,7 @@
 class FriendshipsController < ApplicationController
   before_action :authenticate_user!
   before_action :set_user, only: [:create]
-  before_action :set_friendship, only: [:destroy] 
+  before_action :set_friendship, only: [:destroy, :accept] 
 
   def create
     @friendship = current_user.request_friendship(@user)
