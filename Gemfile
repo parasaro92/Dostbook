@@ -58,3 +58,5 @@ gem 'bootstrap-sass', '~> 3.3.5'
 gem 'bootswatch-rails'
 
 gem 'public_activity'
+
+gem 'auto_html'
